@@ -8,19 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&family=Lemon&display=swap" rel="stylesheet">
   <!-- links to style sheets, google fonts, etc. go here -->
-
 </head>
 <body>
   <style>
-  navbar-custom {
-              background-color: lightgreen;
-              .navbar-custom .navbar-brand,}
-
-  navbar-custom .navbar-text {
-      color: green;}
-
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Lemon', cursive;
+  }
+  h6 {
+    color: #AA151C
   }
   body {
     font-family: 'Kulim Park', sans-serif;
@@ -35,7 +30,7 @@
           class="navbar-brand mb-0 h1">
           <img
           class="d-inline-block align-top"
-          src="images/logo.png"
+          src="images/logo.png" alt="Oto's Marketplace"
           width="100" height="65"/>
         </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +78,8 @@
           <button class="btn" type="submit">
             <img class="img"
                   style="width: 25px; height: 25px"
-                  src="images/Search icon.png"></button>
+                  src="images/Search_Icon.png"
+                  alt="search"></button>
         </form>
       </div>
     </div>
@@ -92,101 +88,105 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col-md-12 col-lg-3 order-sm-2 order-md-2 order-lg-1">
+        <div class="row"><h5 class="text-center" style="color: #275D69">Upcoming Events</h5></div>
+        <div class="row">
       <table class="table table-borderless">
-        <thead>
-          <tr>
-            <th scope="col">
-              <h6 class="text-end">Upcoming Events</h6></th>
-          </tr>
-        </thead>
         <tbody>
           <tr>
-            <td><h6>Bi-Weekly Sales</h6></td>
-            <td class="text-end">3/30-4/5</td>
+          <td><h6 style="color: #275D69">Bi-Weekly Sales</h6></td>
+          <td class="text-end" style="color: #275D69">3/30-4/5</td>
           </tr>
-          <tr>
-            <td><h6>Sushi/ Sashimi Sales</h6></td>
-            <td class="text-end">4/15-4/20</td>
-          </tr>
-          <tr>
-            <td><h6>Warlord's Fundraiser</h6></td>
-            <td class="text-end">4/21-4/22</td>
-          </tr>
-          <tr>
-            <td><h6>Mochi Delight</h6></td>
-            <td class="text-end">4/25</td>
-          </tr>
-          <tr>
-            <td><h6>50th Anniversary</h6></td>
-            <td class="text-end">5/1</td>
-          </tr>
-          <tr>
-            <td><h6>Sauce Sale</h6></td>
-            <td class="text-end">5/5-5/10</td>
-          </tr>
-          <tfoot>
-            <td class="text-end">
-            <button type="button" class="btn btn-outline-primary">View More</button></td>
-          </tfoot>
-        </tbody>
-  </table>
-  </div>
 
+          <tr>
+          <td><h6 style="color: #275D69">Sushi/ Sashimi Sales</h6></td>
+          <td class="text-end" style="color: #275D69">4/15-4/20</td>
+          </tr>
+
+          <tr>
+          <td><h6 style="color: #275D69">Warlord's Fundraiser</h6></td>
+          <td class="text-end" style="color: #275D69">4/21-4/22</td>
+          </tr>
+
+          <tr>
+          <td><h6 style="color: #275D69">Mochi Delight</h6></td>
+          <td class="text-end" style="color: #275D69">4/25</td>
+          </tr>
+
+          <tr>
+          <td><h6 style="color: #275D69">50th Anniversary</h6></td>
+          <td class="text-end" style="color: #275D69">5/1</td>
+          </tr>
+
+          <tr>
+          <td><h6 style="color: #275D69">Sauce Sale</h6></td>
+          <td class="text-end" style="color: #275D69">5/5-5/10</td>
+          </tr>
+        </tbody>
+  </table></div>
+  <div class="row">
+    <button type="button" class="btn btn-outline-primary">View More</button>
+  </div>
+</div>
     <div class="col-md-12 col-lg-9 order-sm-1 order-md-1 order-lg-2">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-</div>
-<div class="carousel-inner">
-<div class="carousel-item active">
-  <img src="images/Group-38.jpg" class="d-block w-100" alt="Sauce Image">
-  <div class="carousel-caption d-md-block text-start mt-5">
-    <h4>Buy 2 Get 1 Free on</h4><b></b>
-    <h1>All Sauces</h1></b></b>
-    <button type="button" class="btn btn-outline-light">Shop Now</button>
-  </div>
-</div>
-<div class="carousel-item">
-  <img src="images/Group-40.jpg" class="d-block w-100" alt="Bento Boxes">
-  <div class="carousel-caption d-md-block text-start mt-5">
-    <h4>Try Out Our</h4><b></b>
-    <h1>Bento Box</h1><b></b><h1>of the Day</h1><b></b>
-    <button type="button" class="btn btn-outline-light">View More</button>
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
 
-  </div>
-</div>
-<div class="carousel-item">
-  <img src="images/Group-39.jpg" class="d-block w-100" alt="Beer">
-  <div class="carousel-caption d-md-block text-end mt-5">
-    <h3>15% Off on</h3><b></b>
-    <h1>All Beer</h1><b></b><h1>& Sake</h1></b></b>
-    <button type="button" class="btn btn-outline-light">Shop Now</button>
-  </div>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="images/Group-38.jpg" class="d-block w-100" alt="Sauce Image">
+          <div class="carousel-caption d-md-block text-start mt-5">
+          <h4>Buy 2 Get 1 Free on</h4><b></b>
+          <h1>All Sauces</h1><br>
+          <button type="button" class="btn btn-outline-light">Shop Now</button>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+          <img src="images/Group-40.jpg" class="d-block w-100" alt="Bento Boxes">
+          <div class="carousel-caption d-md-block text-start mt-5">
+          <h4>Try Out Our</h4><b></b>
+          <h1>Bento Box</h1><b></b><h1>of the Day</h1><b></b>
+          <button type="button" class="btn btn-outline-light">View More</button>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+          <img src="images/Group-39.jpg" class="d-block w-100" alt="Beer">
+          <div class="carousel-caption d-md-block text-end mt-5">
+          <h3>15% Off on</h3><b></b>
+          <h1>All Beer</h1><b></b><h1>& Sake</h1><br>
+          <button type="button" class="btn btn-outline-light">Shop Now</button>
+          </div>
+      </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      </div>
     </div>
   </div>
-
+</div>
         <!-- Welcome to Oto's Marketplace -->
 
   <div class="container">
     <div class="row mt-5">
-      <div class="col-6">
-        <h3>Welcome to<h3><b></b><h1>Oto's Marketplace</h1>
+      <div class="col-sm-12 col-md-6">
+        <h2 style="color: #5B0004; font-family: 'Kulim Park', sans-serif; font-size: 55px">WELCOME TO</h2><h1 style="color: #5B0004; font-size: 120px">Oto's</h1><h3 style="color: #5B0004; font-size: 50px">Marketplace</h3>
       </div>
-      <div class="col-6">
-            Oto's Marketplace has been serving the Sacramento community for over 50 years, specializing in a large selection Japanese and Asian Foods, fresh fish, quality meats, farm fresh produce and daily made fresh bento lunch boxes and sushi.</div>
+      <div class="col-sm-12 col-md-6">
+            <div class="fs-3">Oto's Marketplace has been serving the Sacramento community for over 50 years, specializing in a large selection Japanese and Asian Foods, fresh fish, quality meats, farm fresh produce and daily made fresh bento lunch boxes and sushi.</div>
+          </div>
     </div>
   </div>
 
@@ -194,174 +194,179 @@
 
   <div class="container">
     <div class="row mt-5">
-      <div class="col-12">
-        <h1>Categories</h1>
+        <h1 style="color: #5B0004;">Categories</h1>
       </div>
 
-  <div class="container">
     <div class="row">
       <div class="col-6 col-md-3 text-center">
         <img class="img-fluid"
               src="images/Group-42.jpg"
               alt="hot drink icon"
               title="Hot Drinks" /><br />
-              Hot Drinks
+              <p><u style="color: #AB2622">Hot Drinks</u></p>
       </div>
       <div class="col-6 col-md-3 text-center">
         <img class="img-fluid"
               src="images/Group-43.png"
               alt="cold drink icon"
               title="Cold Drinks" /><br />
-              Cold Drinks
+              <p><u style="color: #AB2622">Cold Drinks</u></p>
       </div>
       <div class="col-6 col-md-3 text-center">
         <img class="img-fluid"
               src="images/Group-45.png"
               alt="noodles & soup icon"
               title="Noodles & Soup" /><br />
-              Noodles & Soup
+              <p><u style="color: #AB2622">Noodles & Soup</u></p>
       </div>
       <div class="col-6 col-md-3 text-center">
         <img class="img-fluid"
               src="images/Group-44.png"
               alt="rice icon"
               title="Rice" /><br />
-              Rice
+              <p><u style="color: #AB2622">Rice</u></p>
     </div>
-    <div class="row p-4">
+    <div class="row mt-4">
       <div class="col-6 col-md-3 text-center">
       <img class="img-fluid"
             src="images/Group-47.png"
             alt="sauce icon"
             title="Sauces" /><br />
-            Sauces
+            <p><u style="color: #AB2622">Sauces</u></p>
       </div>
       <div class="col-6 col-md-3 text-center">
       <img class="img-fluid"
             src="images/Group-46.png"
             alt="mochi icon"
             title="Snacks & Desserts" /><br />
-            Snacks & Desserts
+            <p><u style="color: #AB2622">Snacks & Desserts</u></p>
       </div>
       <div class="col-6 col-md-3 text-center">
       <img class="img-fluid"
             src="images/Group-48.png"
             alt="deli icon"
             title="Deli & Frozen" /><br />
-            Deli & Frozen
+            <p><u style="color: #AB2622">Deli & Frozen</u></p>
       </div>
       <div class="col-6 col-md-3 text-center">
       <img class="img-fluid"
             src="images/Group-49.png"
             alt="toy icon"
             title="Toys & Items" /><br />
-            Toys & Items
+            <p><u style="color: #AB2622">Toys & Items</u></p>
       </div>
     </div>
   </div>
+</div>
+
 
       <!-- Popular Products -->
 <div class="container">
   <div class="row mt-5">
     <div class="col-9">
-      <h1>Popular Products</h1>
+      <h1 style="color: #5B0004;">Popular Products</h1>
     </div>
     <div class="col-3">
-      <p class="text-end">
-      View All</p>
+      <p class="text-end"><u style="color: #275D69">
+      View All</u></p>
     </div>
   </div>
 </div>
 
-  <div class="container">
-    <div class="row mt-2">
-      <div class="col-1">
-          <img class="img-fluid float-start"
-              src="images/left button.png"
-              alt="Left icon"
-              title="Left Click" /><br />
+  <div class="row mt-2">
+    <div class="col-1 my-auto">
+        <img class="img-fluid float-end"
+            src="images/left_button.png"
+            alt="Left icon"
+            title="Left Click" /><br />
+      </div>
+      <div class="col text-center">
+        <a href="index2.html">
+        <img class="img-fluid"
+              src="images/ITOENGenmaicha.jpg"
+              alt="ITOEN Genmaicha"
+              title="ITOEN Genmaicha"/><br />
+              <p class="fw-bold">ITOEN</p>
+              <p class="fw-normal">ITOEN Genmaicha</p></a>
+              <p class="fw-bold">$9.69</p>
+          <img class="img-fluid"
+                src="images/counter.png"
+                alt="counter"/>
         </div>
-        <div class="col-2 text-center">
-          <a href="index2.html">
-          <img class="img-fluid"
-                src="images/ITOENGenmaicha.jpg"
-                alt="ITOEN Genmaicha"
-                title="ITOEN Genmaicha"/><br />
-                <p class="fw-bold">ITOEN</p>
-                <p class="fw-normal">ITOEN Genmaicha</p></a>
-                <p class="fw-bold">$9.69</p>
-            <img class="img-fluid"
-                  src="images/counter.png"/>
-          </div>
-        <div class="col-2 text-center">
-          <img class="img-fluid"
-                src="images/ITOENSenchaLoose.jpg"
-                alt="ITOEN Sencha Loose"
-                title="ITOEN Sencha Loose" /><br />
-                <p class="fw-bold">ITOEN</p>
-                <p class="fw-normal">ITOEN Green Tea</p>
-                <p class="fw-bold">$10.99</p>
-          <img class="img-fluid"
-                src="images/counter.png"/>
-          </div>
-        <div class="col-2 text-center">
-          <img class="img-fluid"
-                src="images/ITOENMatchaGT-Ginger.jpg"
-                alt="ITOEN MatchaGT-Ginger"
-                title="ITOEN MatchaGT-Ginger" /><br />
-                <p class="fw-bold">ITOEN</p>
-                <p class="fw-normal">Tea Bag - Ginger</p>
-                <p class="fw-bold">$6.49</p>
-          <img class="img-fluid"
-                src="images/counter.png"/>
-          </div>
-        <div class="col-2 text-center">
-          <img class="img-fluid"
-                src="images/ITOENMatchaGT-Jasmine.jpg"
-                alt="ITOEN MatchaGT-Jasmine"
-                title="ITOEN MatchaGT-Jasmine" /><br />
-                <p class="fw-bold">ITOEN</p>
-                <p class="fw-normal">Tea Bag - Jasmine</p>
-                <p class="fw-bold">$6.49</p>
-          <img class="img-fluid"
-                src="images/counter.png"/>
-          </div>
-        <div class="col-2 text-center">
-          <img class="img-fluid"
-                src="images/ITOENMatchaGT.jpg"
-                alt="ITOEN MatchaGT-Traditional"
-                title="ITOEN MatchaGT-Traditional" /><br />
-                <p class="fw-bold">ITOEN</p>
-                <p class="fw-normal">Tea Bag - Traditional</p>
-                <p class="fw-bold">$6.49</p>
-          <img class="img-fluid"
-                src="images/counter.png"/>
-          </div>
-        <div class="col-1">
-          <img class="img-fluid float-end"
-                src="images/right button.png"
-                alt="Right icon"
-                title="Right Click" /><br />
-          </div>
-    </div>
-  </div>
+      <div class="col text-center">
+        <img class="img-fluid"
+              src="images/ITOENSenchaLoose.jpg"
+              alt="ITOEN Sencha Loose"
+              title="ITOEN Sencha Loose" /><br />
+              <p class="fw-bold">ITOEN</p>
+              <p class="fw-normal">ITOEN Green Tea</p>
+              <p class="fw-bold">$10.99</p>
+        <img class="img-fluid"
+              src="images/counter.png"
+              alt="counter"/>
+        </div>
+      <div class="col text-center">
+        <img class="img-fluid"
+              src="images/ITOENMatchaGT-Ginger.jpg"
+              alt="ITOEN MatchaGT-Ginger"
+              title="ITOEN MatchaGT-Ginger" /><br />
+              <p class="fw-bold">ITOEN</p>
+              <p class="fw-normal">Tea Bag - Ginger</p>
+              <p class="fw-bold">$6.49</p>
+        <img class="img-fluid"
+              src="images/counter.png"
+              alt="counter"/>
+        </div>
+      <div class="col text-center d-sm-none d-md-block d-lg-block">
+        <img class="img-fluid"
+              src="images/ITOENMatchaGT-Jasmine.jpg"
+              alt="ITOEN MatchaGT-Jasmine"
+              title="ITOEN MatchaGT-Jasmine" /><br />
+              <p class="fw-bold">ITOEN</p>
+              <p class="fw-normal">Tea Bag - Jasmine</p>
+              <p class="fw-bold">$6.49</p>
+        <img class="img-fluid"
+              src="images/counter.png"
+              alt="counter"/>
+        </div>
+      <div class="col text-center d-sm-none d-md-block d-lg-block">
+        <img class="img-fluid"
+              src="images/ITOENMatchaGT.jpg"
+              alt="ITOEN MatchaGT-Traditional"
+              title="ITOEN MatchaGT-Traditional" /><br />
+              <p class="fw-bold">ITOEN</p>
+              <p class="fw-normal">Tea Bag - Traditional</p>
+              <p class="fw-bold">$6.49</p>
+        <img class="img-fluid"
+              src="images/counter.png"
+              alt="counter"/>
+        </div>
+      <div class="col-1 my-auto">
+        <img class="img-fluid float-start"
+              src="images/right_button.png"
+              alt="Right icon"
+              title="Right Click" /><br />
+        </div>
+      </div>
+
+
 
     <!-- Footer -->
 
-    <div class="container">
+    <div class="Footer">
       <div class="row mt-5" style="background-color: #5B0004;">
         <div class="col-sm-12 col-md-6 col-lg-3 order-sm-1">
           <div class="text-white">
-            <div class="row gx-1 mt-3">
-            <h6>Get in Touch</h6>
+            <div class="row gx-1 mt-3 mx-3">
+            <h6 style="color: white">Get in Touch</h6>
             </div>
-            <div class="row gx-1 mt-3">
+            <div class="row gx-1 mt-3 mx-3">
               (916) 424-2398
             </div>
-            <div class="row gx-1 mt-3">
+            <div class="row gx-1 mt-3 mx-3">
               support@otosmarket.com
             </div>
-            <div class="row gx-1 mt-3 mb-3">
+            <div class="row gx-1 mt-3 mb-3 mx-3">
               4990 Freeport Blvd.
               Sacramento, CA 95822
             </div>
@@ -369,63 +374,61 @@
       </div>
 
         <div class="col-sm-12 col-md-6 col-lg-3 order-sm-2 order-md-3 order-lg-2">
-            <div class="row gx-1 mt-3">
+            <div class="row gx-1 mt-3 ms-3">
             <div class="text-white">
-              <h6>Store Hours</h6>
+              <h6 style="color: white">Store Hours</h6>
             <div class="row gx-1 mt-3">
               MON-SAT:    9AM-7PM
             </div>
-            <div class="row gx-1 mt-3">
+            <div class="row gx-1 my-3">
               SUN:      10AM-6PM
             </div>
           </div>
         </div>
       </div>
           <div class="col-sm-12 col-md-6 col-lg-3 order-sm-3 order-md-2 order-lg-3">
-              <div class="row gx-1 mt-3">
-                  <div class="text-white">
-                <h6>Join Our Team</h6>
+              <div class="row gx-1 mt-3 mx-3">
+                <div class="text-white">
+                <h6 style="color: white">Join Our Team</h6>
               </div>
               <div class="row mt-3">
-                  <div class="row">
-                    <form class="d-flex">
-                      <button class="btn btn-primary">
-                      <img src="images/Frame.png" width="40">
-                      DOWNLOAD APPLICATION
-                    </button>
+                  <form class="d-flex">
+                  <button class="btn btn-light">
+                  <img src="images/Frame.png" width="40" alt="download">
+                  DOWNLOAD APPLICATION
+                  </button>
                   </form>
-              <div class="row gx-1 mt-3">
-                <div class="col-1 mx-2">
+              </div>
+              <div class="row gx-1 my-3">
+                <div class="col-1 me-3">
                   <a href="https://www.facebook.com/otosmarketplace4990/">
-                    <img src="images/facebook.png" width="40"/></a>
+                    <img src="images/facebook.png" width="40" alt="Facebook"/></a>
                 </div>
-                <div class="col-1 mx-3">
+                <div class="col-1 ms-3">
                   <a href="https://www.instagram.com/otosmarketplace/?hl=en">
-                    <img src="images/instagram.png" width="40"/></a>
+                    <img src="images/instagram.png" width="40" alt="Instagram"/></a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-    </div>
 
-            <div form class="col-sm-12 col-md-6 col-lg-3 order-sm-4">
-              <div class="row gx-1 mt-3">
-              <div class="mb-3">
+
+            <div class="col-sm-12 col-md-6 col-lg-3 order-sm-4">
+              <div class="row gx-1 my-3 mx-3">
                   <div class="text-white">
-                <label for="formGroupExampleInput" class="form-label"><h6>Join Our Newsletter</h6></label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Email Address">
+                    <h6 style="color: white">Join Our Newsletter</h6>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Email Address">
+                  </div>
               </div>
-              </div>
-              <div class="row gx-1 mb-3">
-                <div class="col-9">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
+              <div class="row gx-1 mb-5 mx-3">
+                  <div class="col-9">
+                  <button type="submit" class="btn btn-light">SUBMIT</button>
+                  </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+  </div>
+
 
 
 
